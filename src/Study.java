@@ -10,7 +10,7 @@ public class Study {
         System.out.println(lesson2.getChar());
         System.out.println(lesson2.getLong());
         System.out.println(lesson2.getDouble());
-        lesson2.sayHi("Natalia");
+        lesson2.sayHi("Natalia Kondratenko");
         System.out.println();
 
         lesson2.firstProblem();
