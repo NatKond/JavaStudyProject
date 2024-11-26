@@ -1,6 +1,14 @@
 
 public class Study {
     public static void main(String[] args){
-        System.out.println("Hello World!");
+        Dog dog = new Dog();
+        dog.setAge(5);
+        dog.setName("Bobik");
+        dog.addName("Tusik");
+        System.out.println(dog.toString());
+        int a = 10;
+        int b = 2;
+        int sum = dog.getSum(10, 15);
+        System.out.print("a = " + a + ", b = " + b + ", sum = " + sum);
     }
 }
